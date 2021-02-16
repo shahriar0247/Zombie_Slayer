@@ -62,14 +62,7 @@ public class player_controller : MonoBehaviour
             turn_smooth_time = 0.1f;
         }
 
-       if (speed >= 0)
-        {
-            anim.SetBool("moving", true);
-        }
-        else
-        {
-            anim.SetBool("moving", false);
-        }
+     
         if (Vertical_Input != 0 || Horizontal_Input != 0)
         {
             anim.SetInteger("state", 1);
@@ -127,5 +120,6 @@ public class player_controller : MonoBehaviour
             anim.SetInteger("state", 2);
         }
     }
+
 
 }

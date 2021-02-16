@@ -15,4 +15,9 @@ public class weapon_controller : MonoBehaviour
     {
         
     }
+    private void OnDrawGizmos()
+    {
+        Debug.DrawLine(transform.position, transform.position + transform.forward * 50);
+    }
+
 }
