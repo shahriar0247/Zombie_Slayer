@@ -616,8 +616,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557588230}
-  m_LocalRotation: {x: 0.45367163, y: 0.51183426, z: -0.3689629, w: 0.6293442}
-  m_LocalPosition: {x: 2.7216644, y: 2.3599997, z: 0.56651974}
+  m_LocalRotation: {x: 0.14011349, y: 0.62058276, z: -0.11395175, w: 0.76305985}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 386211328}
@@ -690,7 +690,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 628894803}
-  m_LocalRotation: {x: 0.055498037, y: 0.6293416, z: -0.04513558, w: 0.77382946}
+  m_LocalRotation: {x: 0.055498067, y: 0.6293415, z: -0.04513558, w: 0.77382946}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1102,7 +1102,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904055417}
-  m_LocalRotation: {x: -0.01710296, y: 0.63080466, z: 0.013909526, w: 0.7756285}
+  m_LocalRotation: {x: -0.017102875, y: 0.63080466, z: 0.013909459, w: 0.7756285}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1646,7 +1646,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989884812}
-  m_LocalRotation: {x: 0.05549805, y: 0.6293416, z: -0.045135558, w: 0.7738294}
+  m_LocalRotation: {x: 0.055498082, y: 0.62934154, z: -0.045135558, w: 0.77382946}
   m_LocalPosition: {x: 4.8680644, y: 2.5300002, z: 1.0132985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2166,18 +2166,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149351794660}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e91ef39cb5970274a9e8a2169197d769, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target_Transform: {fileID: 876010544}
   aim_Transform: {fileID: 2007494491}
-  iteration: 2
-  weight: 0.819
+  iteration: 5
+  weight: 1
   humanBones:
   - bone: 12
-    weight: 0.6
+    weight: 0.81
   - bone: 14
     weight: 1
   - bone: 18
