@@ -111,14 +111,11 @@ public class player_controller : MonoBehaviour
     void aiming()
     {   
         Weapon_IK weaponik = GetComponent<Weapon_IK>();
-        if (turn_smooth_time != 0.05f)
-        {
-            turn_smooth_time = 0.05f;
-        }
+      
 
         if (Input.GetButton("Fire2"))
         {
-            anim.SetInteger("state", 2);
+          
             weaponik.enabled = true;
         }
         else
